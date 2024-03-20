@@ -71,8 +71,9 @@ def count_of_element(elements):
     return list_for_count
 
 
-list_of_words = []
-for path in file_paths:
-    a = gets_words(path)
-    b = count_of_element(list_of_words)
-
+# list_of_words = []
+# for path in file_paths:
+#     a = gets_words(path)
+#     b = count_of_element(list_of_words)
+a = (gets_words("E:\\Git\\Databases\\dataset\\vocab.pubmed.txt"))
+print(count_of_element(a))
